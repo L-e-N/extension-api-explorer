@@ -1,5 +1,3 @@
-project_name: "api-explorer"
-
 application: api-explorer {
   label: "API Explorer"
   file: "bundle.js"
@@ -20,6 +18,6 @@ application: api-explorer {
 }
 
 constant: CONNECTION_NAME {
-  value: ""
+  value: "bigquery"
   export: override_optional
 }
